@@ -11,7 +11,7 @@ const Day = () => {
     <div onClick={changeStateDay} className={`day ${isDay ? "" : "night"}`}>
         <p className={`sun ${isDay ? "" : "moon"}`}></p>
     </div>
-    );
+        );
 };
 
 export default Day;
